@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="regex,正则表达式,常用," />
 
 
 
@@ -84,15 +84,22 @@
 
 
 
-<meta name="description" content="人可生如蚁，而美如神">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Virgo's Blog">
-<meta property="og:url" content="http://blog.virgo.one/index.html">
+<meta name="description" content="在前端开发中经常用到的正则表达式1.校验密码强度密码的强度必须是包含大小写字母和数字的组合，不能使用特殊字符，长度在8-10之间。  1^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).&amp;#123;8,10&amp;#125;$
+2.校验中文字符串仅能是中文。  1^[\u4e00-\u9fa5]&amp;#123;0,&amp;#125;$
+3.由数字、26个英文字母或下划线组成的字符串  1^\w+$">
+<meta property="og:type" content="article">
+<meta property="og:title" content="前端经常用到的正则表达式">
+<meta property="og:url" content="http://blog.virgo.one/2016/05/12/regex-temp/index.html">
 <meta property="og:site_name" content="Virgo's Blog">
-<meta property="og:description" content="人可生如蚁，而美如神">
+<meta property="og:description" content="在前端开发中经常用到的正则表达式1.校验密码强度密码的强度必须是包含大小写字母和数字的组合，不能使用特殊字符，长度在8-10之间。  1^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).&amp;#123;8,10&amp;#125;$
+2.校验中文字符串仅能是中文。  1^[\u4e00-\u9fa5]&amp;#123;0,&amp;#125;$
+3.由数字、26个英文字母或下划线组成的字符串  1^\w+$">
+<meta property="og:updated_time" content="2016-05-12T12:12:31.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Virgo's Blog">
-<meta name="twitter:description" content="人可生如蚁，而美如神">
+<meta name="twitter:title" content="前端经常用到的正则表达式">
+<meta name="twitter:description" content="在前端开发中经常用到的正则表达式1.校验密码强度密码的强度必须是包含大小写字母和数字的组合，不能使用特殊字符，长度在8-10之间。  1^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).&amp;#123;8,10&amp;#125;$
+2.校验中文字符串仅能是中文。  1^[\u4e00-\u9fa5]&amp;#123;0,&amp;#125;$
+3.由数字、26个英文字母或下划线组成的字符串  1^\w+$">
 
 
 
@@ -110,7 +117,7 @@
   };
 </script>
 
-  <title> Virgo's Blog </title>
+  <title> 前端经常用到的正则表达式 | Virgo's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -140,9 +147,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -224,39 +229,14 @@
  </div>
     </header>
     
-      <div id="idhyt-surprise-ball">
-  <div id="idhyt-surprise-ball-animation">
-
-    <!--xxxxxxx xxx xxxxx -->
-    <!--why you are here? -->
-    <span id="layer0Go" class="drag">w</span>
-    <span id="layer1Go" class="drag">h</span>
-    <span id="layer2Go" class="drag">y</span>
-    <span id="layer3Go" class="drag"> </span>
-    <span id="layer4Go" class="drag">y</span>
-    <span id="layer5Go" class="drag">o</span>
-    <span id="layer6Go" class="drag">u</span>
-    <span id="layer7Go" class="drag">a</span>
-    <span id="layer8Go" class="drag">r</span>
-    <span id="layer9Go" class="drag">e</span>
-    <span id="layer10Go" class="drag">h</span>
-    <span id="layer11Go" class="drag">e</span>
-    <span id="layer12Go" class="drag">r</span>
-    <span id="layer13Go" class="drag">e</span>
-    <span id="layer14Go" class="drag">?</span>
-    <span id="layer15Go" class="drag ball"></span>
-  </div>
-</div>
-
-    
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -276,10 +256,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/05/12/regex-temp/" itemprop="url">
-                  前端经常用到的正则表达式
-                </a>
+                前端经常用到的正则表达式
               
             
           </h1>
@@ -345,171 +322,98 @@
       
 
       
-        
-          
-          在前端开发中经常用到的正则表达式1.校验密码强度密码的强度必须是包含大小写字母和数字的组合，不能使用特殊字符，长度在8-10之间。  1^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).&#123;8,10&#125;$
-2.校验中文字符串仅能是中文。  1^[\u4e00-\u9fa
-          ...
+        <h2 id="在前端开发中经常用到的正则表达式"><a href="#在前端开发中经常用到的正则表达式" class="headerlink" title="在前端开发中经常用到的正则表达式"></a>在前端开发中经常用到的正则表达式</h2><h4 id="1-校验密码强度"><a href="#1-校验密码强度" class="headerlink" title="1.校验密码强度"></a>1.校验密码强度</h4><p>密码的强度必须是包含大小写字母和数字的组合，不能使用特殊字符，长度在8-10之间。<br>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).&#123;8,10&#125;$</span><br></pre></td></tr></table></figure></p>
+<h4 id="2-校验中文"><a href="#2-校验中文" class="headerlink" title="2.校验中文"></a>2.校验中文</h4><p>字符串仅能是中文。<br>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">^[\u4e00-\u9fa5]&#123;0,&#125;$</span><br></pre></td></tr></table></figure></p>
+<h4 id="3-由数字、26个英文字母或下划线组成的字符串"><a href="#3-由数字、26个英文字母或下划线组成的字符串" class="headerlink" title="3.由数字、26个英文字母或下划线组成的字符串"></a>3.由数字、26个英文字母或下划线组成的字符串</h4>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">^\w+$</span><br></pre></td></tr></table></figure>
+<h4 id="4-校验E-Mail-地址"><a href="#4-校验E-Mail-地址" class="headerlink" title="4.校验E-Mail 地址"></a>4.校验E-Mail 地址</h4><p>同密码一样，下面是E-mail地址合规性的正则检查语句。<br>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[\w!#$%&amp;&apos;*+/=?^_`&#123;|&#125;~-]+(?:\.[\w!#$%&amp;&apos;*+/=?^_`&#123;|&#125;~-]+)*@(?:[\w](?:[\w-]*[\w])?\.)+[\w](?:[\w-]*[\w])?</span><br></pre></td></tr></table></figure></p>
+<h4 id="5-校验身份证号码"><a href="#5-校验身份证号码" class="headerlink" title="5. 校验身份证号码"></a>5. 校验身份证号码</h4><p>下面是身份证号码的正则校验。15 或 18位。<br>15位：<br>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">^[1-9]\d&#123;7&#125;((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d&#123;3&#125;$</span><br></pre></td></tr></table></figure></p>
+<p>18位：<br>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">^[1-9]\d&#123;5&#125;[1-9]\d&#123;3&#125;((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d&#123;3&#125;([0-9]|X)$</span><br></pre></td></tr></table></figure></p>
+<h4 id="6-校验手机号"><a href="#6-校验手机号" class="headerlink" title="6.校验手机号"></a>6.校验手机号</h4><p>下面是国内13、14、15、17、18开头的手机号正则表达式</p>
+<ul>
+<li>13段：130、131、132、133、134、135、136、137、138、139</li>
+<li>14段：145、147</li>
+<li>15段：150、151、152、153、155、156、157、158、159</li>
+<li>17段：170、176、177、178</li>
+<li>18段：180、181、182、183、184、185、186、187、188、189</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">^(13[0-9]|14[57]|15[012356789]|17[0678]|18[0-9])\d&#123;8&#125;$</span><br></pre></td></tr></table></figure>
+<!-- <iframe scrolling="no" width="100%" height="400" src="http://jsfiddle.net/virgos/b9w1z7ug/embedded/result,js,html,css/light" frameborder="0" allowfullscreen></iframe> –&gt;
+-->
+      
+    </div>
 
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/05/12/regex-temp/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+    <div>
+      
         
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/05/12/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-12T10:28:07+08:00" content="2016-05-12">
-              2016-05-12
-            </time>
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Virgo/" itemprop="url" rel="index">
-                    <span itemprop="name">Virgo</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
+            <a href="/tags/regex/" rel="tag">#regex</a>
           
-
+            <a href="/tags/正则表达式/" rel="tag">#正则表达式</a>
           
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/05/12/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/12/hello-world/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
+            <a href="/tags/常用/" rel="tag">#常用</a>
           
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
-          ...
-
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/05/12/hello-world/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/05/12/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
           </div>
-        
-      
-    </div>
 
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="2016/05/12/regex-temp/"
+     data-title="前端经常用到的正则表达式"
+     data-content=""
+     data-url="http://blog.virgo.one/2016/05/12/regex-temp/">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
 
 
           </div>
@@ -517,6 +421,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/05/12/regex-temp/"
+           data-title="前端经常用到的正则表达式" data-url="http://blog.virgo.one/2016/05/12/regex-temp/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -536,8 +448,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="https://avatars2.githubusercontent.com/u/8540582?v=3&s=460"
@@ -616,6 +537,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#在前端开发中经常用到的正则表达式"><span class="nav-number">1.</span> <span class="nav-text">在前端开发中经常用到的正则表达式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-校验密码强度"><span class="nav-number">1.0.1.</span> <span class="nav-text">1.校验密码强度</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-校验中文"><span class="nav-number">1.0.2.</span> <span class="nav-text">2.校验中文</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-由数字、26个英文字母或下划线组成的字符串"><span class="nav-number">1.0.3.</span> <span class="nav-text">3.由数字、26个英文字母或下划线组成的字符串</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-校验E-Mail-地址"><span class="nav-number">1.0.4.</span> <span class="nav-text">4.校验E-Mail 地址</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-校验身份证号码"><span class="nav-number">1.0.5.</span> <span class="nav-text">5. 校验身份证号码</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-校验手机号"><span class="nav-number">1.0.6.</span> <span class="nav-text">6.校验手机号</span></a></li></ol></li></ol></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -712,6 +644,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 

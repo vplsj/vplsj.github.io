@@ -21,7 +21,7 @@
 <li>18段：180、181、182、183、184、185、186、187、188、189</li>
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">^(13[0-9]|14[57]|15[012356789]|17[0678]|18[0-9])\d&#123;8&#125;$</span><br></pre></td></tr></table></figure>
-<h3 id="演示："><a href="#演示：" class="headerlink" title="演示："></a>演示：</h3><iframe scrolling="no" width="100%" height="400" src="http://jsfiddle.net/virgos/nyb4sLfu/embedded/result,js,html,css/dark" frameborder="0" allowfullscreen></iframe>
+<h3 id="演示："><a href="#演示：" class="headerlink" title="演示："></a>演示：</h3><iframe scrolling="no" width="100%" height="400" src="http://jsfiddle.net/virgos/6aswy82L/embedded/result,js,html,css/dark" frameborder="0" allowfullscreen></iframe>
 ]]></content>
     </entry>
     

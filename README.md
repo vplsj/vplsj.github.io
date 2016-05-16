@@ -2,4 +2,4 @@
 Hexo generate Blog [HexoBlog](https://github.com/virgoone/HexoBlog)
 
 ## Copyright and License
-[The MIT license](license.md).
+[The MIT license](LICENSE.md).

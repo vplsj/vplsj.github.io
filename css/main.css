@@ -183,6 +183,10 @@ th {
   background: #262a30;
   color: #fff;
 }
+.highlight ::selection {
+  background: #ff2a2a;
+  color: #fff;
+}
 body {
   position: relative;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -1549,7 +1553,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6fe240;
+  background: #d9ff33;
 }
 .links-of-blogroll {
   font-size: 13px;

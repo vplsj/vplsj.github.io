@@ -184,8 +184,8 @@ th {
   color: #fff;
 }
 .highlight ::selection {
-  background: #ff2a2a;
-  color: #fff;
+  background: #fff;
+  color: #262a30;
 }
 body {
   position: relative;
@@ -1553,7 +1553,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d9ff33;
+  background: #ffe941;
 }
 .links-of-blogroll {
   font-size: 13px;

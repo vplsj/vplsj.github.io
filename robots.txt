@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: http://blog.virgo.one/README.md
-Disallow: http://blog.virgo.one/LICENSE.md
+Disallow: /README.md
+Disallow: /LICENSE.md
 Sitemap: http://blog.virgo.one/sitemap.xml
